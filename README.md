@@ -27,19 +27,3 @@ A beginner-friendly Django application that allows users to manage their daily t
 
 ---
 
-## 🗂 Folder Structure (Simplified)
-
-Todo_app/
-├── main/ # Django app
-│ ├── migrations/
-│ ├── templates/
-│ │ └── index.html # HTML UI
-│ ├── models.py # Task model
-│ ├── serializers.py # API serializer
-│ ├── views.py # HTML + API logic
-│ └── urls.py # App routing
-├── simplecrud/
-│ └── settings.py # Django settings
-├── db.sqlite3 # SQLite database
-├── manage.py # Django entry point
-└── requirements.txt # Python dependencies
